@@ -1,0 +1,53 @@
+WashLetRunNew+1+32950
+Uart2_Push_Rod_Swash1 //Uart_Push_Rod_Swash(1,30000);
+
+weight
+WashLet_V2
+RunAllAuto		//联动
+
+Uart2_Push_Rod_Swash1	//冲洗烘干推杆伸出
+Uart2_Push_Rod_Swash0	 //冲洗烘干推杆缩回
+
+Uart_Washlet_Tig0		//坐便袋收线电机放线
+Uart_Washlet_Tig1		//坐便袋收紧  
+
+Uart_WashletTigOnly		//仅有收线电机动
+
+
+Uart_Motor_6_2_START0	 //收线推杆伸出	
+Uart_Motor_6_2_START1	//收线推杆缩回	
+
+WashLetMotorCXHG+1+30000	//冲洗烘干推杆伸出
+WashLetMotorCXHG+0+30000	//冲洗烘干推杆缩回
+WashLetMotorSXTG+1+13000	//冲洗烘干推杆伸出
+WashLetMotorSXTG+0+17200	//冲洗烘干推杆缩回
+（WashLetMotorSXTG+1+17500，WashLetMotorSXTG+0+17500）
+WashLetMotorSXDJ+1+20000	//冲洗烘干推杆伸出+坐便袋收紧电机收紧
+
+BackUpNew+85
+BackDownNew+85
+LegUpUpNew+30
+LegUpDownNew+30
+
+
+
+BackUpPhone
+BackDownPhone
+LegUpUpPhone
+LegUpDownPhone
+LegDownDownPhone
+LegDownUpPhone
+BodyLeftUpPhone
+BodyLeftDownPhone
+BodyRightUpPhone
+BodyRightDownPhone
+BackNursingLeftPhone
+WaistNursingLeftPhone
+BackNursingRightPhone
+WaistNursingRightPhone
+DeskUpPhone
+DeskDownPhone
+
+MuscleMassagerPhone
+RunAllAuto
+ResetAllAuto

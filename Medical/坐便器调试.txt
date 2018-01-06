@@ -1,0 +1,15 @@
+WashLetRunNew+1+32950
+Uart2_Push_Rod_Swash1 //Uart_Push_Rod_Swash(1,30000);
+
+weight
+WashLet_V2
+RunAllAuto		//联动
+
+Uart2_Push_Rod_Swash1	//冲洗烘干推杆伸出
+Uart2_Push_Rod_Swash0	 //冲洗烘干推杆缩回
+
+Uart_Washlet_Tig0		//坐便袋收紧  
+Uart_Washlet_Tig1		//坐便袋收线电机放线
+
+Uart_Motor_6_2_START0	 //收线推杆伸出	
+Uart_Motor_6_2_START1	//收线推杆缩回	

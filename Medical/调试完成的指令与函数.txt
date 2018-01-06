@@ -1,0 +1,10 @@
+BodyLeftUpPhone
+BodyLeftDownPhone
+BodyRightUpPhone
+BodyRightDownPhone
+
+WashLetRunNew+1+32950	打开
+WashLetRunNew+0+32950	关闭
+
+DeskRunDownNew+1+100	//小桌子往前
+DeskRunDownNew+0+100	//小桌子往后

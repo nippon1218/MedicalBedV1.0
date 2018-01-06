@@ -1,0 +1,28 @@
+1  冲洗烘干推杆伸出：  Uart2_Push_Rod_Swash1
+2  冲洗烘干推杆缩回：  Uart2_Push_Rod_Swash0
+3  坐便袋收紧收线：	      Uart_Washlet_Tig0
+4  坐便袋收紧放线：	      Uart_Washlet_Tig1
+5  坐便袋收线推杆伸出：	Uart_Motor_6_2_START1
+6  坐便袋收线推杆缩回：  Uart_Motor_6_2_START0
+7  坐便袋打开：		Uart222_Washlet1
+8  坐便袋关闭：		Uart222_Washlet0
+
+9  吊挂1—Up			Hang1_1
+10 吊挂1-Down		Hang1_0
+11 吊挂2-Up			Hang2_0
+12 吊挂2-Down		Hang2_1
+13 吊挂3-Up 		Hang3_1
+14 吊挂3-Down		Hang3_0
+15 吊挂4-Up			Hang4_0
+16 吊挂4-Down		Hang4_1
+
+
+
+17：坐便器打开或者闭合，例：WashLetNew+1+33000
+18：吊挂，例如：HangRunUp+6+1000
+19：左右吊挂，HangLR+1+0+2+15
+20
+
+
+
+
