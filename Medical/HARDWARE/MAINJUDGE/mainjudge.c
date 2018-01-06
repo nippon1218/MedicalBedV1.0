@@ -1605,53 +1605,6 @@ void Usart2ReceiveJudge(void)
 		{
 			ResetAll();
 		}		
-
-/***********************************************************************************	
-                          
-			               串口接收护栏指令
-			
-***********************************************************************************/
-			
-		else if(strstr((const char *)USART2_RX_BUF,(const char *)"BackGB"))           //支背
-		{
-			Uart_GB_Back();					
-		}
-		
-		else if(strstr((const char *)USART2_RX_BUF,(const char *)"BodyLeftGB"))      //左翻身
-		{
-			Uart_GB_Body_Left();						
-		}				
-		
-		else if(strstr((const char *)USART2_RX_BUF,(const char *)"BodyRightGB"))     //右翻身
-		{
-			Uart_GB_Body_Right();					
-		}
-		
-		else if(strstr((const char *)USART2_RX_BUF,(const char *)"BackNursingGB"))   //背部护理
-		{
-			Uart_GB_Back_Nursing();					
-		}							
-		
-		else if(strstr((const char *)USART2_RX_BUF,(const char *)"WaistNursingGB"))  //腰部护理
-		{
-			Uart_GB_Waist_Nursing();						
-		}				
-		
-		else if(strstr((const char *)USART2_RX_BUF,(const char *)"WashletAutoGB"))   //自动坐便
-		{
-			Uart_Washlet_Auto();					
-		}						
-		
-		else if(strstr((const char *)USART2_RX_BUF,(const char *)"LockGB"))          //键锁
-		{
-			Uart_GB_Lock();
-		}
-		
-		else if(strstr((const char *)USART2_RX_BUF,(const char *)"ResetGB"))        //掉电复位
-		{
-			Uart_Res_Power_Down();					
-		}	
-	
 			
 /***********************************************************************************	
                           
